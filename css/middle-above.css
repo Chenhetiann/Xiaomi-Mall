@@ -1,0 +1,124 @@
+/* 中部 */
+.middle-container {
+    position: relative;
+    z-index: 10;
+}
+.middle {
+    position: relative;
+    margin-bottom: 26px;
+}
+.scroll{
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+    background: blanchedalmond;
+    position: relative;
+}
+.imgshow a{
+    position: absolute;
+    display: none;
+}
+.imgshow a:nth-child(1){
+    display: block;
+}
+.imgshow a img{
+    width: 1226px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.points{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+.points a{
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: red;
+    border-radius: 50%;
+    float: left;
+    border: 2px solid black;
+    margin: 4px;
+}
+.points .show{
+    background: rgba(255, 255, 255, 0.6);
+    border-color: rgba(0, 0, 0, 0.5);
+}
+.points a:hover{
+    background: rgba(255, 255, 255, 0.6);
+    border-color: rgba(0, 0, 0, 0.5);
+}
+.points .hidden{
+    background: rgba(0, 0, 0, 0.5);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+.btn{
+    display: block;
+    width: 41px;
+    height: 69px;
+    background-image: url(../img/icon-slides.png);
+    position: absolute;
+    top: 40%;
+    margin-left: 234px;
+}
+.btn-left{
+    background-position-x: -83px;
+}
+.btn-left:hover{
+    background-position-x: 0;
+}
+.btn-right{
+    right: 0;
+    background-position-x: 41px;
+}
+.btn-right:hover{
+    background-position-x: -41px;
+}
+.scroll_left{
+    width: 236px;
+    background: #a5a3a3;
+    font-size: 14px;
+    font-family: 微软雅黑;
+    float: left;
+    padding: 20px 0;
+    letter-spacing: -1px;
+    position: absolute;
+    top: 0px;
+    left:0;
+}
+.scr_li{
+    padding-left: 30px;
+    height: 42px;
+    line-height: 42px;
+    cursor: pointer;
+}
+.scr_li:hover{
+    background: #FF6700;
+}
+.scr_li a{
+    font-family: 微软雅黑;
+    color: white;
+    font-size: 14.7px;
+    text-decoration: none;
+}
+.scr_li .right{
+    position: relative;
+    width: 14px;
+    height: 14px;
+    float: right;
+    top: 15px;
+    margin-right: 20px;
+}
+.scroll_right{
+    width: 990px;
+    height: 100%;
+    float: right;
+}
+.scroll:after{
+    content: '';
+    clear: both;
+    display: block;
+    margin-top: 14px;
+}

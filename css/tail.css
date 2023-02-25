@@ -1,0 +1,188 @@
+/* 尾部 */
+.tail .tail-service {
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.tail .list-service {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.tailr .list-service li:first-child {
+    border-left: 0;
+}
+.tail .list-service li {
+    float: left;
+    width: 19.8%;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+.tail-item{
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.tail-icon{
+    position: relative;
+    text-align: center;
+}
+.list-service img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+.list-service .tail-static {
+    opacity: 1;
+}
+.list-service .tail-hover {
+    opacity: 0;
+}
+.tail-text{
+    color: #616161;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+    margin-left: 27px;
+}
+.tail .tail-links {
+    padding: 40px 0;
+}
+.tail .tail-links .col-links {
+    float: left;
+    width: 160px;
+    margin: 0;
+}
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+dt {
+    display: block;
+}
+dd {
+    display: block;
+    margin-inline-start: 40px;
+}
+.tail .tail-links .col-links dt {
+    margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+.tail .tail-links .col-links dd {
+    margin: 10px 0 0;
+    font-size: 12px;
+}
+.tail .tail-links .col-links a {
+    color: #757575;
+}
+.tail .tail-links .col-links a:hover {
+    color: #FF6700;
+}
+.tail .tail-links .col-contact {
+    float: right;
+    width: 251px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color: #616161;
+}
+.tail .tail-links .col-contact .phone {
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+}
+.tail .tail-links .col-contact .person {
+    text-align: center;
+    display: inline-block;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    border: 1px solid #ff6700;
+    color: #ff6700;
+}
+.tail .tail-links .col-contact .person:hover{
+    background-color: #ff6700;
+    color: white;
+    border: 1px solid #ff6700;
+}
+.tail .tail-links .col-contact p {
+    margin: 0 0 5px 0;
+    font-size: 12px;
+}
+.tail-info {
+    padding: 30px 0;
+    font-size: 12px;
+    background: #fafafa;
+}
+.tail-info .container {
+    position: relative;
+}
+.tail-info .logo img{
+    width: 56px;
+    height: 56px;
+    margin-right: 20px;
+    background-size: 56px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ir {
+    display: block;
+    text-align: left;
+    text-indent: -9999em;
+    overflow: hidden;
+}
+.tail-info .info-text {
+    color: #b0b0b0;
+    padding-left: 77px;
+}
+.tail-info .info-text p {
+    margin: 0;
+    line-height: 18px;
+}
+.tail-info .info-text .sites a {
+    color: #757575;
+}
+.tail-info .info-text a {
+    color: #b0b0b0;
+    margin: 0 2px;
+}
+.tail-info .info-text .sites a:hover {
+    color: #FF6700;
+}
+.tail-info .info-text .sites-msg a:hover {
+    color: #FF6700;
+}
+.tail-info .info-text .sites .sep {
+    margin: 0;
+}
+.tail-info .info-links {
+    height: 28px;
+    margin: 4px 0 15px;
+    padding-left: 77px;
+}
+.tail-info .info-links a {
+    display: inline-block;
+}
+.tail-info .info-links img {
+    width: auto;
+    height: 28px;
+    margin-left: 0;
+}
+.tail-info .slogan{
+    clear: both;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.tail-info .slogan img{
+    margin: 30px auto;
+}
